@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeMessageController {
     @GetMapping("/message")
     public String message(){
-        return "Greetings! Application successfully deployed to Azure App Service.";
+        return "Greetings! Your Application successfully deployed to Azure App Service.";
     }
 }
